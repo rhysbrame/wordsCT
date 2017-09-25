@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401eb95d-f451-4af9-8868-97e5e918cc6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NumberToWords/main/converter/NumberToWords.class" afterPath="$PROJECT_DIR$/out/production/NumberToWords/main/converter/NumberToWords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/converter/NumberToWords.java" afterPath="$PROJECT_DIR$/src/main/converter/NumberToWords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java" afterPath="$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java" />
     </list>
@@ -20,8 +18,8 @@
       <file leaf-file-name="NumberToWords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="257">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="NumberToWordsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="332">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
@@ -77,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/test/NumberToWordsTest.java" />
         <option value="$PROJECT_DIR$/src/test/NumberToWordsTestx.kt" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java" />
         <option value="$PROJECT_DIR$/src/main/converter/NumberToWords.java" />
+        <option value="$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java" />
       </list>
     </option>
   </component>
@@ -257,31 +255,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="NumberToWordsTest.testConvert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.converter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="NumberToWords" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.converter" />
-      <option name="MAIN_CLASS_NAME" value="main.converter.NumberToWordsTest" />
-      <option name="METHOD_NAME" value="testConvert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="NumberToWordsTest.testTens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -295,6 +268,31 @@
       <option name="PACKAGE_NAME" value="main.converter" />
       <option name="MAIN_CLASS_NAME" value="main.converter.NumberToWordsTest" />
       <option name="METHOD_NAME" value="testTens" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NumberToWordsTest.testThousandAnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NumberToWords" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="main.converter" />
+      <option name="MAIN_CLASS_NAME" value="main.converter.NumberToWordsTest" />
+      <option name="METHOD_NAME" value="testThousandAnd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -416,17 +414,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testConvert" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testUnique" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testTens" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testUnique" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testTens" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testThousandAnd" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testTens" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testUnique" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testConvert" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testThousandAnd" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testTens" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NumberToWordsTest.testUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -434,35 +432,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 15h 41m 30s.xml">
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 43m 21s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 15h 41m 56s.xml">
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 44m 40s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 14m 06s.xml">
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 46m 46s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 18m 05s.xml">
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 47m 22s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 15h 44m 55s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 49m 39s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 15h 45m 18s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 49m 55s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 15h 59m 38s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 50m 06s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 16h 04m 03s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 50m 22s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 16h 05m 56s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 57m 21s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberToWordsTest_testTens - 2017.09.25 at 16h 10m 37s.xml">
-      <configuration name="NumberToWordsTest.testTens" configurationId="JUnit" />
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 57m 50s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -474,11 +472,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2528409" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24798061" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24798061" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
@@ -575,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="257">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />

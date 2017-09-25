@@ -40,6 +40,15 @@ public class NumberToWords {
             return unique[num / 100] + " hundred" + (num % 100 == 0 ? "" : " and " + convertNumber(num % 100));
         }
 
+        if (num < 1000000) {
+            if (num % 1000 == 0) {
+                return convertNumber(num / 1000) + " thousand";
+            } else if (num % 1000 < 20) {
+                return convertNumber(num / 1000) + " thousand and " + convertNumber(num % 1000);
+            } else
+                return convertNumber(num / 1000) + " thousand " +  convertNumber(num % 1000);
+        }
+
         return null;
     }
 }
