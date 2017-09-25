@@ -6,7 +6,7 @@ public class NumberToWords {
         return Integer.parseInt(input);
     };
 
-    public static final String[] children = {
+    public static final String[] unique = {
             "", "one", "two", "three", "four", "five",
             "six", "seven", "eight", "nine", "ten",
             "eleven", "twelve", "thirteen", "fourteen",
@@ -27,6 +27,11 @@ public class NumberToWords {
     }
 
     private static String convertNumber(int num) {
+
+        if (num < 20) {
+            return unique[num];
+        }
+
         return null;
     }
 }

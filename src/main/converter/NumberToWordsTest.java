@@ -17,5 +17,12 @@ public class NumberToWordsTest extends TestCase {
         Assert.assertEquals("number too large", convert(1234567890));
     }
 
+    @Test
+    public void testUnique() {
+        Assert.assertEquals("one",convert(1));
+        Assert.assertEquals("ten",convert(10));
+        Assert.assertEquals("nineteen",convert(19));
+    }
 
+    
 }
