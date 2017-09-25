@@ -19,10 +19,14 @@ public class NumberToWordsTest extends TestCase {
 
     @Test
     public void testUnique() {
-        Assert.assertEquals("one",convert(1));
-        Assert.assertEquals("ten",convert(10));
-        Assert.assertEquals("nineteen",convert(19));
+        Assert.assertEquals("one", convert(1));
+        Assert.assertEquals("ten", convert(10));
+        Assert.assertEquals("nineteen", convert(19));
     }
 
-    
+    @Test
+    public void testTens() {
+        Assert.assertEquals("twenty", convert(20));
+        Assert.assertEquals("twenty one", convert(21));
+    }
 }

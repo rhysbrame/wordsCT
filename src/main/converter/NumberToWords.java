@@ -32,6 +32,12 @@ public class NumberToWords {
             return unique[num];
         }
 
+        if (num < 100) {
+            return tens[num / 10] +  (num % 10 == 0  ? "" : " " + unique[num % 10]);
+        }
+
+        
+
         return null;
     }
 }
