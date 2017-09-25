@@ -21,8 +21,6 @@ public class NumberToWords {
     public static String convert(int num) {
         if (num == 0) {
             return "zero";
-        } else if (num >= 1000000000) {
-            return "number too large";
         } else return convertNumber(num);
     }
 
@@ -49,8 +47,15 @@ public class NumberToWords {
                 return convertNumber(num / 1000) + " thousand " +  convertNumber(num % 1000);
         }
 
-        
+        if (num < 1000000000) {
+            if (num % 1000000 == 0) {
+                return convertNumber(num / 1000000) + " million";
+            } else if (num % 1000000 < 20) {
+                return convertNumber(num / 1000000) + " million and " + convertNumber(num % 1000000);
+            } else
+                return convertNumber(num / 1000000) + " million " + convertNumber(num % 1000000);
+        }
 
-        return null;
+        return "number too large";
     }
 }
