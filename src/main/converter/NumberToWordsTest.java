@@ -11,4 +11,11 @@ public class NumberToWordsTest extends TestCase {
     public void testZero() {
         Assert.assertEquals("zero", convert(0));
     }
+
+    @Test
+    public void testOver() {
+        Assert.assertEquals("number too large", convert(1234567890));
+    }
+
+
 }
