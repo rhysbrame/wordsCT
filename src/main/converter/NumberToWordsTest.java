@@ -45,7 +45,15 @@ public class NumberToWordsTest extends TestCase {
         Assert.assertEquals("nine thousand nine hundred and ninety nine", convert(9999));
     }
 
+    @Test
+    public void testUpToMillion() {
+        Assert.assertEquals("one hundred thousand", convert(100000));
+        Assert.assertEquals("one hundred thousand and one", convert(100001));
+        Assert.assertEquals("one hundred thousand and ten", convert(100010));
+        Assert.assertEquals("one hundred thousand one hundred and ten", convert(100110));
+        Assert.assertEquals("nine hundred and ninety nine thousand nine hundred and ninety nine", convert(999999));
 
+    }
 
 
 }

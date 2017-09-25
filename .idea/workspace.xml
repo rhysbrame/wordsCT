@@ -18,8 +18,8 @@
       <file leaf-file-name="NumberToWords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="361">
+              <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="NumberToWordsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="274">
+              <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/test/NumberToWordsTest.java" />
         <option value="$PROJECT_DIR$/src/test/NumberToWordsTestx.kt" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/converter/NumberToWords.java" />
         <option value="$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/converter/NumberToWords.java" />
       </list>
     </option>
   </component>
@@ -432,24 +432,6 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 43m 21s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 44m 40s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 46m 46s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 47m 22s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 49m 39s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 49m 55s.xml">
-      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 50m 06s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
@@ -460,6 +442,24 @@
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 16h 57m 50s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 00m 27s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 00m 41s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 00m 56s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 01m 20s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 02m 23s.xml">
+      <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTest_(3) - 2017.09.25 at 17h 02m 39s.xml">
       <configuration name="NumberToWordsTest (3)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -559,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="274">
+          <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
@@ -573,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/converter/NumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="361">
+          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
