@@ -29,4 +29,13 @@ public class NumberToWordsTest extends TestCase {
         Assert.assertEquals("twenty", convert(20));
         Assert.assertEquals("twenty one", convert(21));
     }
+
+    @Test
+    public void testHundredAnd() {
+        Assert.assertEquals("one hundred", convert(100));
+        Assert.assertEquals("one hundred and one", convert(101));
+    }
+
+
+
 }

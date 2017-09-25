@@ -33,10 +33,12 @@ public class NumberToWords {
         }
 
         if (num < 100) {
-            return tens[num / 10] +  (num % 10 == 0  ? "" : " " + unique[num % 10]);
+            return tens[num / 10] +  (num % 10 == 0 ? "" : " " + unique[num % 10]);
         }
 
-        
+        if (num < 1000) {
+            return unique[num / 100] + " hundred" + (num % 100 == 0 ? "" : " and " + convertNumber(num % 100));
+        }
 
         return null;
     }
