@@ -52,7 +52,6 @@ public class NumberToWordsTest extends TestCase {
         Assert.assertEquals("one hundred thousand and ten", convert(100010));
         Assert.assertEquals("one hundred thousand one hundred and ten", convert(100110));
         Assert.assertEquals("nine hundred and ninety nine thousand nine hundred and ninety nine", convert(999999));
-
     }
 
     @Test
@@ -61,6 +60,7 @@ public class NumberToWordsTest extends TestCase {
         Assert.assertEquals("one million and one", convert(1000001));
         Assert.assertEquals("one million and ten", convert(1000010));
         Assert.assertEquals("nine million one hundred thousand one hundred and ten", convert(9100110));
+        Assert.assertEquals("fifty six million nine hundred and forty five thousand seven hundred and eighty one", convert(56945781));
+        Assert.assertEquals("nine hundred and ninety nine million nine hundred and ninety nine thousand nine hundred and ninety nine", convert(999999999));
     }
-
 }
