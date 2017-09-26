@@ -7,21 +7,26 @@ public class NumberToWords {
     };
 
     public static final String[] unique = {
-            "", "one", "two", "three", "four", "five",
-            "six", "seven", "eight", "nine", "ten",
-            "eleven", "twelve", "thirteen", "fourteen",
-            "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"
+            "", "one", "two", "three", "four",
+            "five", "six", "seven", "eight", "nine",
+            "ten", "eleven", "twelve", "thirteen",
+            "fourteen", "fifteen", "sixteen",
+            "seventeen", "eighteen", "nineteen"
     };
 
     public static final String[] tens = {
-            "", "", "twenty", "thirty", "forty", "fifty",
-            "sixty", "seventy", "eighty", "ninety"
+            "", "", "twenty", "thirty", "forty",
+            "fifty", "sixty", "seventy", "eighty",
+            "ninety"
     };
 
     public static String convert(int num) {
         if (num == 0) {
             return "zero";
-        } else return convertNumber(num);
+        } else if (num < 0) {
+            return "minus " + convertNumber(-num);
+        } else
+            return convertNumber(num);
     }
 
     private static String convertNumber(int num) {

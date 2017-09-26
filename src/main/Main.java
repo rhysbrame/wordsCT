@@ -14,8 +14,8 @@ public class Main {
         System.out.println("Enter your number: ");
 
         BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
-
         inputString = bufferRead.readLine();
+
         int number = stringToInt(inputString);
 
         String outputString = convert(number);
@@ -23,4 +23,3 @@ public class Main {
         System.out.println("Here is your number in words... " + outputString);
     }
 }
-
